@@ -22,7 +22,7 @@
 
 Thay vào đó, dùng GitHub Security Advisories để báo cáo lỗ hổng một cách riêng tư:
 
-[Báo cáo lỗ hổng](https://github.com/withkynam/vibecode-pro-max-kit/security/advisories/new)
+[Báo cáo lỗ hổng](https://github.com/rowjat/ai-vibecode/security/advisories/new)
 
 > **Lưu ý:** Private Vulnerability Reporting phải được bật trong repository settings thì nút "Report a vulnerability" mới hiện.
 

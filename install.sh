@@ -8,7 +8,7 @@ set -euo pipefail
 # After this script, run Claude Code and say "Run vc-setup" to
 # auto-detect your project, scaffold process/, and populate context.
 
-REPO="https://github.com/withkynam/vibecode-pro-max-kit.git"
+REPO="https://github.com/rowjat/ai-vibecode.git"
 TMPDIR="/tmp/vc-kit-install-$$"
 BACKUP_DIR=".vibecode-backup"
 GREEN='\033[0;32m'

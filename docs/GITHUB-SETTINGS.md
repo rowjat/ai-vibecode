@@ -1,7 +1,7 @@
 # GitHub Repository Settings
 
 > Reference for maintainers. Apply these settings via the GitHub web UI at
-> **Settings** tab of https://github.com/withkynam/vibecode-pro-max-kit
+> **Settings** tab of https://github.com/rowjat/ai-vibecode
 
 ---
 
@@ -13,7 +13,7 @@ RIPER-5 agent harness for Claude Code & Codex — 12 specialist agents, 31 skill
 
 ## Website URL
 
-`https://github.com/withkynam/vibecode-pro-max-kit`
+`https://github.com/rowjat/ai-vibecode`
 
 ## Topics
 

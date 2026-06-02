@@ -604,7 +604,7 @@ public function test_webhook() {
 ## Next Steps
 
 1. **In Your First Laravel Project**:
-   - Run: `curl -fsSL https://raw.githubusercontent.com/withkynam/vibecode-pro-max-kit/main/install.sh | bash`
+   - Run: `curl -fsSL https://raw.githubusercontent.com/rowjat/ai-vibecode/main/install.sh | bash`
    - Say: `"Add user authentication with email verification"`
    - Watch the full RESEARCH → PLAN → EXECUTE workflow
 

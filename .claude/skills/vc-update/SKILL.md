@@ -38,7 +38,7 @@ Read the file `.vc-version` in the project root.
 
 ```bash
 TMPDIR="/tmp/vc-update-$(date +%s)"
-git clone --depth 1 https://github.com/withkynam/vibecode-pro-max-kit.git "$TMPDIR"
+git clone --depth 1 https://github.com/rowjat/ai-vibecode.git "$TMPDIR"
 ```
 
 If the clone fails (network error, auth error, repo not found):

@@ -42,12 +42,12 @@
 🤝 Plans and specs are shareable — devs, PMs, and stakeholders review the same artifacts
 
 <p>
-  <a href="https://github.com/withkynam/vibecode-pro-max-kit/stargazers"><img src="https://img.shields.io/github/stars/withkynam/vibecode-pro-max-kit" alt="Stars"></a>
-  <a href="https://github.com/withkynam/vibecode-pro-max-kit/network/members"><img src="https://img.shields.io/github/forks/withkynam/vibecode-pro-max-kit" alt="Forks"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/withkynam/vibecode-pro-max-kit" alt="License"></a>
-  <a href="https://github.com/withkynam/vibecode-pro-max-kit/graphs/contributors"><img src="https://img.shields.io/github/contributors/withkynam/vibecode-pro-max-kit" alt="Contributors"></a>
-  <a href="https://github.com/withkynam/vibecode-pro-max-kit/actions/workflows/validate.yml"><img src="https://img.shields.io/github/actions/workflow/status/withkynam/vibecode-pro-max-kit/validate.yml" alt="CI"></a>
-  <a href="https://github.com/withkynam/vibecode-pro-max-kit/commits/main"><img src="https://img.shields.io/github/last-commit/withkynam/vibecode-pro-max-kit" alt="Last Commit"></a>
+  <a href="https://github.com/rowjat/ai-vibecode/stargazers"><img src="https://img.shields.io/github/stars/rowjat/ai-vibecode" alt="Stars"></a>
+  <a href="https://github.com/rowjat/ai-vibecode/network/members"><img src="https://img.shields.io/github/forks/rowjat/ai-vibecode" alt="Forks"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/rowjat/ai-vibecode" alt="License"></a>
+  <a href="https://github.com/rowjat/ai-vibecode/graphs/contributors"><img src="https://img.shields.io/github/contributors/rowjat/ai-vibecode" alt="Contributors"></a>
+  <a href="https://github.com/rowjat/ai-vibecode/actions/workflows/validate.yml"><img src="https://img.shields.io/github/actions/workflow/status/rowjat/ai-vibecode/validate.yml" alt="CI"></a>
+  <a href="https://github.com/rowjat/ai-vibecode/commits/main"><img src="https://img.shields.io/github/last-commit/rowjat/ai-vibecode" alt="Last Commit"></a>
   <img src="https://img.shields.io/badge/agents-12-orange" alt="Agents">
   <img src="https://img.shields.io/badge/skills-32-purple" alt="Skills">
   <img src="https://img.shields.io/badge/tools-7_%E2%9C%93-38BDF8" alt="7 Tools">
@@ -101,7 +101,7 @@
 > Prefer to drive it from your agent? Open Claude Code or Codex **with that project folder as the working directory**, then paste the [full setup prompt](#-full-agent-setup-prompt) below.
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/withkynam/vibecode-pro-max-kit/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/rowjat/ai-vibecode/main/install.sh | bash
 ```
 
 Then open Claude Code and say:
@@ -160,7 +160,7 @@ your-project/
 ```
 First, install the vibecode-pro-max-kit agent harness by running this command:
 
-curl -fsSL https://raw.githubusercontent.com/withkynam/vibecode-pro-max-kit/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/rowjat/ai-vibecode/main/install.sh | bash
 
 After the install completes, run vc-setup to configure everything for this project.
 
@@ -1163,15 +1163,15 @@ We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 **Quick links:**
 
-- 🐛 [Report a bug](https://github.com/withkynam/vibecode-pro-max-kit/issues/new?template=1.bug_report.yml)
-- 💡 [Request a feature](https://github.com/withkynam/vibecode-pro-max-kit/issues/new?template=2.feature_request.yml)
-- ⚡ [Submit a skill](https://github.com/withkynam/vibecode-pro-max-kit/issues/new?template=3.skill_submission.yml)
-- 🌐 [Add a translation](https://github.com/withkynam/vibecode-pro-max-kit/issues/new?template=5.translation.yml)
+- 🐛 [Report a bug](https://github.com/rowjat/ai-vibecode/issues/new?template=1.bug_report.yml)
+- 💡 [Request a feature](https://github.com/rowjat/ai-vibecode/issues/new?template=2.feature_request.yml)
+- ⚡ [Submit a skill](https://github.com/rowjat/ai-vibecode/issues/new?template=3.skill_submission.yml)
+- 🌐 [Add a translation](https://github.com/rowjat/ai-vibecode/issues/new?template=5.translation.yml)
 
 <br>
 
-<a href="https://github.com/withkynam/vibecode-pro-max-kit/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=withkynam/vibecode-pro-max-kit" alt="Contributors" />
+<a href="https://github.com/rowjat/ai-vibecode/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=rowjat/ai-vibecode" alt="Contributors" />
 </a>
 
 <br>
@@ -1186,11 +1186,11 @@ The difference: vibecode-pro-max-kit focuses on the spec-driven development fram
 
 ## ⭐ Star History
 
-<a href="https://star-history.com/#withkynam/vibecode-pro-max-kit&Date">
+<a href="https://star-history.com/#rowjat/ai-vibecode&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=withkynam/vibecode-pro-max-kit&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=withkynam/vibecode-pro-max-kit&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=withkynam/vibecode-pro-max-kit&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=rowjat/ai-vibecode&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=rowjat/ai-vibecode&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=rowjat/ai-vibecode&type=Date" />
  </picture>
 </a>
 

@@ -22,7 +22,7 @@
 
 代わりに、GitHub Security Advisoriesを使用して非公開で脆弱性を報告してください：
 
-[脆弱性を報告する](https://github.com/withkynam/vibecode-pro-max-kit/security/advisories/new)
+[脆弱性を報告する](https://github.com/rowjat/ai-vibecode/security/advisories/new)
 
 > **注意：** 「脆弱性を報告する」ボタンを表示するには、リポジトリ設定でPrivate Vulnerability Reportingが有効になっている必要があります。
 

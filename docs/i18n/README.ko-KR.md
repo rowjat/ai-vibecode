@@ -42,12 +42,12 @@
 🤝 플랜과 스펙을 공유 가능 — 개발자, PM, 이해관계자가 동일한 산출물을 리뷰해요
 
 <p>
-  <a href="https://github.com/withkynam/vibecode-pro-max-kit/stargazers"><img src="https://img.shields.io/github/stars/withkynam/vibecode-pro-max-kit" alt="Stars"></a>
-  <a href="https://github.com/withkynam/vibecode-pro-max-kit/network/members"><img src="https://img.shields.io/github/forks/withkynam/vibecode-pro-max-kit" alt="Forks"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/withkynam/vibecode-pro-max-kit" alt="License"></a>
-  <a href="https://github.com/withkynam/vibecode-pro-max-kit/graphs/contributors"><img src="https://img.shields.io/github/contributors/withkynam/vibecode-pro-max-kit" alt="Contributors"></a>
-  <a href="https://github.com/withkynam/vibecode-pro-max-kit/actions/workflows/validate.yml"><img src="https://img.shields.io/github/actions/workflow/status/withkynam/vibecode-pro-max-kit/validate.yml" alt="CI"></a>
-  <a href="https://github.com/withkynam/vibecode-pro-max-kit/commits/main"><img src="https://img.shields.io/github/last-commit/withkynam/vibecode-pro-max-kit" alt="Last Commit"></a>
+  <a href="https://github.com/rowjat/ai-vibecode/stargazers"><img src="https://img.shields.io/github/stars/rowjat/ai-vibecode" alt="Stars"></a>
+  <a href="https://github.com/rowjat/ai-vibecode/network/members"><img src="https://img.shields.io/github/forks/rowjat/ai-vibecode" alt="Forks"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/rowjat/ai-vibecode" alt="License"></a>
+  <a href="https://github.com/rowjat/ai-vibecode/graphs/contributors"><img src="https://img.shields.io/github/contributors/rowjat/ai-vibecode" alt="Contributors"></a>
+  <a href="https://github.com/rowjat/ai-vibecode/actions/workflows/validate.yml"><img src="https://img.shields.io/github/actions/workflow/status/rowjat/ai-vibecode/validate.yml" alt="CI"></a>
+  <a href="https://github.com/rowjat/ai-vibecode/commits/main"><img src="https://img.shields.io/github/last-commit/rowjat/ai-vibecode" alt="Last Commit"></a>
   <img src="https://img.shields.io/badge/agents-12-orange" alt="Agents">
   <img src="https://img.shields.io/badge/skills-32-purple" alt="Skills">
   <img src="https://img.shields.io/badge/tools-7_%E2%9C%93-38BDF8" alt="7 Tools">
@@ -101,7 +101,7 @@
 > 에이전트로 직접 진행하는 게 더 편하다면? 해당 프로젝트 폴더를 작업 디렉토리로 해서 Claude Code나 Codex를 열고, 아래의 전체 설정 프롬프트를 붙여넣으세요.
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/withkynam/vibecode-pro-max-kit/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/rowjat/ai-vibecode/main/install.sh | bash
 ```
 
 그다음 Claude Code를 열고 이렇게 말하세요:
@@ -158,7 +158,7 @@ your-project/
 ```
 First, install the vibecode-pro-max-kit agent harness by running this command:
 
-curl -fsSL https://raw.githubusercontent.com/withkynam/vibecode-pro-max-kit/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/rowjat/ai-vibecode/main/install.sh | bash
 
 After the install completes, run vc-setup to configure everything for this project.
 
@@ -1161,15 +1161,15 @@ Run vc-update
 
 **바로가기:**
 
-- 🐛 [버그 신고](https://github.com/withkynam/vibecode-pro-max-kit/issues/new?template=1.bug_report.yml)
-- 💡 [기능 요청](https://github.com/withkynam/vibecode-pro-max-kit/issues/new?template=2.feature_request.yml)
-- ⚡ [Skill 제출](https://github.com/withkynam/vibecode-pro-max-kit/issues/new?template=3.skill_submission.yml)
-- 🌐 [번역 추가](https://github.com/withkynam/vibecode-pro-max-kit/issues/new?template=5.translation.yml)
+- 🐛 [버그 신고](https://github.com/rowjat/ai-vibecode/issues/new?template=1.bug_report.yml)
+- 💡 [기능 요청](https://github.com/rowjat/ai-vibecode/issues/new?template=2.feature_request.yml)
+- ⚡ [Skill 제출](https://github.com/rowjat/ai-vibecode/issues/new?template=3.skill_submission.yml)
+- 🌐 [번역 추가](https://github.com/rowjat/ai-vibecode/issues/new?template=5.translation.yml)
 
 <br>
 
-<a href="https://github.com/withkynam/vibecode-pro-max-kit/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=withkynam/vibecode-pro-max-kit" alt="Contributors" />
+<a href="https://github.com/rowjat/ai-vibecode/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=rowjat/ai-vibecode" alt="Contributors" />
 </a>
 
 <br>
@@ -1184,11 +1184,11 @@ Run vc-update
 
 ## ⭐ Star History
 
-<a href="https://star-history.com/#withkynam/vibecode-pro-max-kit&Date">
+<a href="https://star-history.com/#rowjat/ai-vibecode&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=withkynam/vibecode-pro-max-kit&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=withkynam/vibecode-pro-max-kit&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=withkynam/vibecode-pro-max-kit&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=rowjat/ai-vibecode&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=rowjat/ai-vibecode&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=rowjat/ai-vibecode&type=Date" />
  </picture>
 </a>
 
