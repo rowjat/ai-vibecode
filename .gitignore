@@ -1,0 +1,10 @@
+.idea
+.vc-version
+.vc-publish-config
+node_modules/
+.DS_Store
+*.log
+.claude/hooks/.logs/
+.codex/hooks/.logs/
+.codex/statusline.cjs
+/.vibecode-backup
