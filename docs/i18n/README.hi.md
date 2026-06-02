@@ -101,7 +101,7 @@
 > Agent से चलाना पसंद करते हैं? Claude Code या Codex को **उस project folder को working directory बनाकर** खोलें, फिर नीचे दिया [full setup prompt](#-full-agent-setup-prompt) paste करें।
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/rowjat/ai-vibecode/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/rowjat/ai-vibecode/master/install.sh | bash
 ```
 
 फिर Claude Code खोलें और कहें:
@@ -160,7 +160,7 @@ your-project/
 ```
 First, install the vibecode-pro-max-kit agent harness by running this command:
 
-curl -fsSL https://raw.githubusercontent.com/rowjat/ai-vibecode/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/rowjat/ai-vibecode/master/install.sh | bash
 
 After the install completes, run vc-setup to configure everything for this project.
 

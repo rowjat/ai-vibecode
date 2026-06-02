@@ -101,7 +101,7 @@
 > 更喜欢让你的代理来执行？以该项目文件夹作为工作目录打开 Claude Code 或 Codex，然后粘贴下面的完整设置提示词。
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/rowjat/ai-vibecode/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/rowjat/ai-vibecode/master/install.sh | bash
 ```
 
 然后打开 Claude Code 说：
@@ -158,7 +158,7 @@ your-project/
 ```
 First, install the vibecode-pro-max-kit agent harness by running this command:
 
-curl -fsSL https://raw.githubusercontent.com/rowjat/ai-vibecode/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/rowjat/ai-vibecode/master/install.sh | bash
 
 After the install completes, run vc-setup to configure everything for this project.
 
