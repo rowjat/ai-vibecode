@@ -104,6 +104,21 @@
 curl -fsSL https://raw.githubusercontent.com/rowjat/ai-vibecode/master/install.sh | bash
 ```
 
+---
+
+## 🛡️ Git Workflow (Team Safety)
+
+This harness enforces strict branch safety to prevent "AI accidents" in production.
+
+- **The One Rule:** No direct commits to `main` or `master`.
+- **Branching:** Use `ai/` prefix for AI sessions, `feature/` for humans.
+- **Hygiene:** Squash merges are mandatory for AI branches to keep history clean.
+- **Signing:** All commits must be signed (GPG/SSH).
+
+*Refer to [process/development-protocols/git-workflow.md](process/development-protocols/git-workflow.md) for the full team protocol.*
+
+---
+
 Then open Claude Code and say:
 
 ```
