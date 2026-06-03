@@ -609,7 +609,7 @@ public function test_webhook() {
    - Watch the full RESEARCH → PLAN → EXECUTE workflow
 
 2. **Customize for Your Team**:
-   - Add team patterns to `process/context/laravel/conventions.md`
+   - Add team patterns to a conventions file under `process/context/`
    - Create company-specific templates in `.claude/skills/vc-laravel-boost/templates/`
    - Document API versioning strategy
 

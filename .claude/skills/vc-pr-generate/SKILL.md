@@ -1,7 +1,6 @@
 ---
-name: github-pr-generate
-description: >
-  Generate a complete, high-quality GitHub Pull Request from staged changes, a branch diff, a commit log, or a plain description of what was done. Use this skill whenever the user wants to: open a PR, write a PR description, draft a pull request, generate PR title and body, summarize changes for a PR, create a PR from a diff or commit list, or produce PR-ready markdown. Trigger even if the user says things like "write up my changes", "make a PR for this", "what should I put in this PR", or "help me open a pull request". This skill produces structured, ready-to-paste GitHub PR output including title, body with sections (summary, motivation, changes, testing), and optional labels/checklist.
+name: vc:pr-generate
+description: Generate complete, high-quality GitHub Pull Requests from staged changes, branch diffs, commit logs, or plain descriptions
 ---
 
 # GitHub PR Generator
