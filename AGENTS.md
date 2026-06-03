@@ -29,20 +29,58 @@ See `process/context/all-context.md` for project-specific coding preferences and
 > - ❌ Never skip the branch workflow
 > 
 > **✅ ALWAYS DO:**
-> 1. `git checkout main && git pull origin main`
+> 1. `git checkout dev && git pull origin dev`
 > 2. `git checkout -b [prefix]/[descriptive-name]`
 >    - AI work → `ai/` prefix
 >    - Bug fix → `fix/` prefix
 >    - Feature → `feature/` prefix
-> 3. After work: push → PR to `main` → squash merge
+> 3. **All work on the branch** — plan, code, docs, everything. Never write files on `dev`.
+> 4. **Closeout checklist** (before merging):
+>    - [ ] Plan status updated (⏳→✅/🔨/🚧)
+>    - [ ] Plan archived to `process/general-plans/completed/`
+>    - [ ] PR record created in `process/general-plans/pr/`
+>    - [ ] All commits pushed
+> 5. `git checkout dev && git merge --squash [branch] && git push origin dev`
+> 6. `git branch -D [branch]`
 > 
-> **Every task**, including discovery/audit-only work. No exceptions.
+> **Every task**, including plan creation, discovery/audit-only work. No exceptions.
 > 
 > **🔁 TASK CYCLE:**
 > - Complete task → create PR with description → generate changelog → then next RIPER-5 cycle starts
 > - Never start a new task while the previous one has no PR
-> - Use `vc-pr-generate` skill for PR generation
+> - **Mandatory**: Use `vc:pr-generate` skill for PR generation — run the full pipeline (gather diff/log, analyze, produce structured body). Do not skip or hand-write.
 > - Store PR records in `process/general-plans/pr/` (general) or `process/features/[feature]/pr/` (feature-specific)
+> - PR generation that reveals process gaps must update AGENTS.md
+> - Generate changelog entry alongside the PR body (append to `CHANGELOG.md` or create if missing). Both PR and changelog in the same closeout pass.
+> - **⛔ NO MULTI-TASKING**: Do not start a new plan or implementation until the previous one has a PR and changelog entry. This ensures proper closeout and prevents context switching.
+
+```mermaid
+timeline
+    title Full Workflow Timeline — HARD RULES steps 1-6
+    Section 1. Branch (step 1-2)
+        checkout dev && pull : Orchestrator
+        checkout -b ai/feature : Orchestrator
+    Section 2. Plan (step 3)
+        create plan artifact : PlanAgent
+        save to active/ : PlanAgent
+        commit plan : GitManager
+    Section 3. Execute (step 3)
+        implement per plan : ExecuteAgent
+        commit code : GitManager
+    Section 4. Closeout (step 4)
+        plan status to VERIFIED : Orchestrator
+        archive plan to completed : Orchestrator
+        generate PR body : PRGenerator
+        PR record to pr/ : PRGenerator
+        update CHANGELOG.md : PRGenerator
+        commit closeout : GitManager
+    Section 5. Merge (step 5-6)
+        checkout dev : Orchestrator
+        merge squash : Orchestrator
+        push origin dev : Orchestrator
+        branch delete : Orchestrator
+```
+
 
 ## RIPER-5 Spec-Driven Development System
 
