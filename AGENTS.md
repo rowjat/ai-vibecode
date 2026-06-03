@@ -33,6 +33,7 @@ Read these files as needed:
 
 - [orchestration.md](process/development-protocols/orchestration.md)
 - [implementation-standards.md](process/development-protocols/implementation-standards.md)
+- [git-workflow.md](process/development-protocols/git-workflow.md)
 - [plan-lifecycle.md](process/development-protocols/plan-lifecycle.md)
 - [phase-programs.md](process/development-protocols/phase-programs.md)
 - [context-maintenance.md](process/development-protocols/context-maintenance.md)
