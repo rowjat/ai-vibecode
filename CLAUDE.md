@@ -2,6 +2,31 @@
 
 See `process/context/all-context.md` for project-specific coding preferences and conventions.
 
+> **⛔ HARD RULES — read before starting any work:**
+> 
+> Reference: [process/development-protocols/git-workflow.md](process/development-protocols/git-workflow.md)
+> 
+> **🚫 NEVER DO:**
+> - ❌ Never code/commit directly on `main` or `dev`
+> - ❌ Never push to `main` or `dev`
+> - ❌ Never skip the branch workflow
+> 
+> **✅ ALWAYS DO:**
+> 1. `git checkout main && git pull origin main`
+> 2. `git checkout -b [prefix]/[descriptive-name]`
+>    - AI work → `ai/` prefix
+>    - Bug fix → `fix/` prefix
+>    - Feature → `feature/` prefix
+> 3. After work: push → PR to `main` → squash merge
+> 
+> **Every task**, including discovery/audit-only work. No exceptions.
+> 
+> **🔁 TASK CYCLE:**
+> - Complete task → create PR with description → generate changelog → then next RIPER-5 cycle starts
+> - Never start a new task while the previous one has no PR
+> - Use `vc-pr-generate` skill for PR generation
+> - Store PR records in `process/general-plans/pr/` (general) or `process/features/[feature]/pr/` (feature-specific)
+
 ## RIPER-5 Spec-Driven Development System
 
 This project uses RIPER-5 methodology for systematic, spec-driven development. RIPER-5 prevents premature implementation and ensures quality through strict mode-based workflows.
@@ -589,6 +614,11 @@ Each mode has strict boundaries:
 1. Verify RIPER-5 rules loaded (orchestrator declares `[MODE: ORCHESTRATOR]`)
 2. Run the `vc-generate-context` skill if `process/context/all-context.md` doesn't exist
 3. Start with a feature request or question
+
+Orchestrator — routing rules + phase definitions
+1. detect main vs master (git branch -a)
+2. dirty branch → ask user: stash or abort
+3. branch prefix rules: ai/ feature/ fix/ hotfix/ refactor/ chore/
 
 **Typical Feature Workflow** (Orchestrator routes to subagents):
 

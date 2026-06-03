@@ -19,6 +19,31 @@ in both places automatically.
 
 See `process/context/all-context.md` for project-specific coding preferences and conventions.
 
+> **⛔ HARD RULES — read before starting any work:**
+> 
+> Reference: [process/development-protocols/git-workflow.md](process/development-protocols/git-workflow.md)
+> 
+> **🚫 NEVER DO:**
+> - ❌ Never code/commit directly on `main` or `dev`
+> - ❌ Never push to `main` or `dev`
+> - ❌ Never skip the branch workflow
+> 
+> **✅ ALWAYS DO:**
+> 1. `git checkout main && git pull origin main`
+> 2. `git checkout -b [prefix]/[descriptive-name]`
+>    - AI work → `ai/` prefix
+>    - Bug fix → `fix/` prefix
+>    - Feature → `feature/` prefix
+> 3. After work: push → PR to `main` → squash merge
+> 
+> **Every task**, including discovery/audit-only work. No exceptions.
+> 
+> **🔁 TASK CYCLE:**
+> - Complete task → create PR with description → generate changelog → then next RIPER-5 cycle starts
+> - Never start a new task while the previous one has no PR
+> - Use `vc-pr-generate` skill for PR generation
+> - Store PR records in `process/general-plans/pr/` (general) or `process/features/[feature]/pr/` (feature-specific)
+
 ## RIPER-5 Spec-Driven Development System
 
 This project uses RIPER-5 methodology for systematic, spec-driven development. RIPER-5

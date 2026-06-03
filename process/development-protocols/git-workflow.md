@@ -136,42 +136,8 @@ git push --force-with-lease origin ai/branch-name
 **Never squash a shared branch** — only squash when you are the sole author.
 
 ---
-
-## Version Tagging
-
-Tags follow semantic versioning: `vMAJOR.MINOR.PATCH`
-
-```bash
-# Create and push a tag
-git tag -a v2.5.0 -m "v2.5.0 — FMCG drill-down charts"
-git push origin v2.5.0
-
-# List tags
-git tag -l "v2.*"
-
-# Delete a tag (local + remote)
-git tag -d v2.5.0
-git push origin :refs/tags/v2.5.0
-```
-
-### When to Tag
-
-| Event | Tag | Who |
-|---|---|---|
-| Production release | `vMAJOR.MINOR.PATCH` | Tech Lead |
-| Hotfix release | `vMAJOR.MINOR.PATCH-hotfix.N` | Tech Lead |
-| Pre-release / RC | `vMAJOR.MINOR.PATCH-rc.N` | Tech Lead |
-| First deploy after feature complete | `vMAJOR.MINOR.PATCH` | Any committer |
-
-### Auto-Generated Changelog
-
-Tags feed changelog generation. After tagging:
-
-```bash
-# Generate changelog between two tags
-git log --oneline v2.4.0..v2.5.0 --no-merges
-```
-
+ 
+ 
 For full automation, see the `gh` release workflow in CI.
 
 ---
