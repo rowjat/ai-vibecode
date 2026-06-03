@@ -15,6 +15,7 @@ Read these files as needed:
 - `process/development-protocols/all-development-protocols.md`
 - `process/development-protocols/orchestration.md`
 - `process/development-protocols/implementation-standards.md`
+- `process/development-protocols/git-workflow.md`
 - `process/development-protocols/plan-lifecycle.md`
 - `process/development-protocols/phase-programs.md`
 - `process/development-protocols/context-maintenance.md`

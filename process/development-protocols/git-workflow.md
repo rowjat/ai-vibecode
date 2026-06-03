@@ -1,6 +1,6 @@
-# Git Workflow — Softograph Team
+# Git Workflow
 
-How we use git across all Softograph projects. This applies to everyone:
+How we use git across all projects. This applies to everyone:
 developers, designers, AI coding tools (Claude Code, Gemini, OpenCode, Cursor).
 
 **Version:** 2.0 — June 2026
